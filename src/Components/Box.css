@@ -1,0 +1,24 @@
+.box {
+  width: 80px;
+  height: 80px;
+  box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5),
+    10px 10px 15px rgba(70, 70, 70, 0.12);
+  margin: 5px;
+  font-size: 24px;
+  border: 8px solid #ececec;
+  outline: none;
+  border-radius: 50%;
+}
+
+.check {
+  box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5),
+    10px 10px 15px rgba(70, 70, 70, 0.12),
+    inset -10px -10px 15px rgba(255, 255, 255, 0.5),
+    inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+}
+.x {
+  color: #ff4625;
+}
+.o {
+  color: rgb(44, 135, 255);
+}
